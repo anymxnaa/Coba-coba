@@ -53,20 +53,20 @@ if [ $start = "y" ]; then
     echo
     echo "Starting Anti Trackback"
     sleep 3
-    gnome-terminal -x bash -c "$HOME/anym_project/anti_track_back.sh; exec bash"
+    gnome-terminal -x bash -c "$HOME/Paladin_project/anti_track_back.sh; exec bash"
 #trap project
     echo
     echo "Starting Trap Project"
     sleep 3
-    gnome-terminal -x bash -c "$HOME/anym_project/trap.sh; exec bash"
+    gnome-terminal -x bash -c "$HOME/Paladin_project/trap.sh; exec bash"
 #paladin auto exploit
     echo
-    echo "Start Paladin Auto exploit?"
+    echo "Start Auto exploit?"
     echo "y/n?"
     read paladin_auto
     if [ $paladin_auto = "y" ]; then
         echo "Memulai auto exploit"
-        gnome-terminal -x bash -c "$HOME/anym_project/ngrok tcp 4444; exec bash"
+        gnome-terminal -x bash -c "$HOME/Paladin_project/ngrok tcp 4444; exec bash"
 #ambil IP & Port Ngrok
         gnome-terminal -x ping "0.tcp.ngrok.io"        
         echo
@@ -90,7 +90,7 @@ if [ $start = "y" ]; then
         echo "y/n"
         read start_stegosploit
         if [ $start_stegosploit = "y" ]; then
-            gnome-terminal -x bash -c "$HOME/anym_project/stegosploit.sh; exec bash"
+            gnome-terminal -x bash -c "$HOME/Paladin_project/stegosploit.sh; exec bash"
             echo "Start Metasploit sekarang?"
             echo "y/n?"
             read start_metasploit
