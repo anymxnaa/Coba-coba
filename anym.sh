@@ -35,7 +35,7 @@ clear
 echo "Loading.."
 load
 clear
-hackbae
+figlet Anym
 echo "============================================"                                            
 echo "==    Selamat datang di Paladin Project   =="
 echo "============================================"   
