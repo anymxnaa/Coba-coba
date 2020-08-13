@@ -37,7 +37,7 @@ load
 clear
 figlet Anym
 echo "============================================"                                            
-echo "==    Selamat datang di Paladin Project   =="
+echo "==    Selamat datang di Anym Project   =="
 echo "============================================"   
 echo " Mulai Anym Project?"
 echo "y/n?"
